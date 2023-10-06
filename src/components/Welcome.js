@@ -28,26 +28,26 @@ function Welcome() {
          '&::before': {
           content: '""', 
           display: 'block',
-          width: '1.7em',   // Adjust based on the size of your left SVG
-          height: '1.7em',  // Adjust based on the size of your left SVG
-          background: 'url(/svg/flourish1.png) no-repeat',
+          width: '1.7em',
+          height: '1.7em', 
+          background: 'url(/png/flourish1.png) no-repeat',
           backgroundSize: 'contain',
           position: 'absolute',
           top: '50%',
           transform: 'translateY(-90%) rotate(180deg)', // Added rotation to flip the SVG
-          left: '-2em', // Adjust positioning as requiredno
+          left: '-2em',
         },
          '&::after': {
            content: '""',
            display: 'block',
-           width: '1.7em',   // Adjust based on the size of your right SVG
-           height: '1.7em',  // Adjust based on the size of your right SVG
-           background: 'url(/svg/flower.png) no-repeat',
+           width: '1.7em',
+           height: '1.7em',
+           background: 'url(/png/flower.png) no-repeat',
            backgroundSize: 'contain',
            position: 'absolute',
            top: '50%',
            transform: 'translateY(-23%)',
-           right: '-2em', // Adjust positioning as required
+           right: '-2em',
          }
          }}>Alice & Sam
          </Typography>
@@ -55,7 +55,7 @@ function Welcome() {
   variant="contained" 
   sx={{ 
     backgroundColor: 'black', 
-    color: 'white',  // If you want white text; this is the default for dark backgrounds
+    color: 'white', 
     '&:hover': {
       backgroundColor: '#333',  // Darker shade for hover effect
     }
